@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="false"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/MAINPAGE"
+        android:layout_width="139dp"
+        android:layout_height="41dp"
+        android:text="@string/mainname"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.057" />
+
+    <Button
+        android:id="@+id/REALTIME"
+        android:layout_width="108dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="72dp"
+        android:background="#8BC34A"
+        android:text="@string/realtimebutton"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MAINPAGE" />
+
+    <Button
+        android:id="@+id/HISTORY"
+        android:layout_width="217dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="72dp"
+        android:background="#8BC34A"
+        android:text="@string/historybutton"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/REALTIME" />
+
+    <Button
+        android:id="@+id/CALCURATOR"
+        android:layout_width="299dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="72dp"
+        android:background="#8BC34A"
+        android:text="@string/calcuratorbutton"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/HISTORY" />
+
+    <Button
+        android:id="@+id/HOWTOPLANT"
+        android:layout_width="308dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="72dp"
+        android:background="#8BC34A"
+        android:text="@string/plantbutton"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CALCURATOR" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

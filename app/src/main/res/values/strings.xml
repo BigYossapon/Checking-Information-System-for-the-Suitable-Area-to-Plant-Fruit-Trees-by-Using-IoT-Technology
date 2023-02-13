@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="mainname">หน้าหลัก</string>
+    <string name="historybutton">ประวัติการตรวจสอบ</string>
+    <string name="calcuratorbutton">คำนวณผลผลิตโดยประมาณ</string>
+    <string name="plantbutton">วิธีการปลูกและดูแลพืชไม้ผล</string>
+    <string name="realtimebutton">เรียลไทม์</string>
+</resources>
